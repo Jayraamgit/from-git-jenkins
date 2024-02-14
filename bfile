@@ -1,1 +1,38 @@
 this is branch file
+
+
+commands
+
+ 1  apt install git
+    2  which git
+    3  mkdir branch1
+    4  cd branch1/
+    5  git init
+    6  vi myfile1
+    7  git status
+    8  git add .
+    9  git status
+   10  git commit -m "this is first commit code"
+   11  git status
+   12  git branch branch1
+   13  git branch
+   14  ls
+   15  git checkout branch1
+   16  git branch
+   17  ls
+   18  cat >bfile
+   19  ls
+   20  git add .
+   21  git commit -m "this is my second commit from branch"
+   22  git branch
+   23  git checkout master
+   24  ls
+   25  git branch
+   26  git merge branch1
+   27  ls
+   28  git remote add origin https://github.com/Jayraamgit/from-git-jenkins.git
+   29  git push origin master
+   30  username
+   31 password
+finally the code pushed to github
+
